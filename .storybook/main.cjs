@@ -20,7 +20,7 @@ module.exports = {
   // organization/project to project (so the project name is not treated as a subdirectory)
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/ignite-lab/'
+      config.base = '/sb-design-system/'
     }
 
     return config
