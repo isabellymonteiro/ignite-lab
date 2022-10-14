@@ -1,7 +1,7 @@
 # Design System Ignite Lab
 Design System Project developed during [Rockeseat](https://www.rocketseat.com.br/) Ignite Lab.
 
-Storybook deployed at: [Design System Ignite Lab](isabellymonteiro.github.io/ignite-lab/)
+Storybook deployed at: [Design System Ignite Lab](https://isabellymonteiro.github.io/sb-design-system/)
 
 ## Tools
 [comment]: <> (https://github.com/Ileriayo/markdown-badges#markdown-badges)
