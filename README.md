@@ -1,5 +1,7 @@
 # Design System Ignite Lab
-Design System Project developed during [Rockeseat](https://www.rocketseat.com.br/) Ignite Lab
+Design System Project developed during [Rockeseat](https://www.rocketseat.com.br/) Ignite Lab.
+
+Storybook deployed at: [Design System Ignite Lab](isabellymonteiro.github.io/ignite-lab/)
 
 ## Tools
 
