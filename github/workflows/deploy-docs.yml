@@ -1,0 +1,38 @@
+# https://github.com/storybookjs/storybook-deployer
+name: Deploy Storybook
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  # this name can be defined by me
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # downloads the updated version of our code - github specific
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # installs node on our environment (ubuntu) - github specific
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      # npm install (only project production dependencies), it does not change package-lock.json
+      # ci environment -> non-interactive environment
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Storybook
+        run: npm run build-storybook
+
+      # storybook-static -> storybook directory generated after storybook build
+      - name: Deploy Storybook
+        run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
+        # env variables generated automatically (no need to set)
+        env:
+          GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}

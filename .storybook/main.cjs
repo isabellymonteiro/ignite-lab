@@ -14,5 +14,14 @@ module.exports = {
   },
   "features": {
     "storyStoreV7": true
+  },
+  // in case I was an organization on github and needed to change the url from
+  // organization/project to project (so the project name is not treated as a subdirectory)
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/ignite-lab/'
+    }
+
+    return config
   }
 }
