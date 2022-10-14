@@ -4,7 +4,7 @@ Design System Project developed during [Rockeseat](https://www.rocketseat.com.br
 Storybook deployed at: [Design System Ignite Lab](isabellymonteiro.github.io/ignite-lab/)
 
 ## Tools
-
+[comment]: <> (https://github.com/Ileriayo/markdown-badges#markdown-badges)
 ![Storybook](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
