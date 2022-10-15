@@ -14,8 +14,13 @@ module.exports = {
     "builder": "@storybook/builder-vite"
   },
   "features": {
-    "storyStoreV7": true
+    "storyStoreV7": true,
+    "interactionsDebugger": true
   },
+  // for msw (mock service worker) - https://github.com/mswjs/msw-storybook-addon
+  "staticDirs": [
+    "../public"
+  ],
   // in case I was an organization on github and needed to change the url from
   // organization/project to project (so the project name is not treated as a subdirectory)
   viteFinal: (config, { configType }) => {
