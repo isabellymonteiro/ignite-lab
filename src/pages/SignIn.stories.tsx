@@ -24,6 +24,7 @@ export default {
 } as Meta
 
 // https://storybook.js.org/addons/@storybook/addon-interactions
+// no need to have unit test (spec) and storybook test at the same time
 export const Default: StoryObj = {
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement)
