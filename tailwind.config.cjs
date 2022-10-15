@@ -30,7 +30,7 @@ module.exports = {
         }   
       },
       fontFamily: {
-        sans: 'Inter, san s-serif'
+        sans: 'Inter, sans-serif'
       }
     },
   },
