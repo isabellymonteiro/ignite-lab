@@ -3,6 +3,12 @@ Design System Project developed during [Rockeseat](https://www.rocketseat.com.br
 
 Storybook deployed at: [Design System Ignite Lab](https://isabellymonteiro.github.io/sb-design-system/)
 
+## Figma
+[comment]: <> (Plugins: color styleguide — to generate the color schema — and Phospor Icons — for the icons.)
+- [Layout](https://www.figma.com/file/5vKLOPJHfAJbh9v8jydq86/Ignite-Lab-Design-System?node-id=0%3A1)
+- [Tokens/Components](https://www.figma.com/file/5vKLOPJHfAJbh9v8jydq86/Ignite-Lab-Design-System?node-id=2%3A99)
+- [Colors](https://www.figma.com/file/5vKLOPJHfAJbh9v8jydq86/Ignite-Lab-Design-System?node-id=7%3A63)
+
 ## Tools
 [comment]: <> (https://github.com/Ileriayo/markdown-badges#markdown-badges)
 ![Storybook](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)
